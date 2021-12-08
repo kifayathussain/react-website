@@ -1,0 +1,43 @@
+.footer {
+  /* background-color: #f8f9fa; */
+  justify-content: space-between;
+  display: flex;
+}
+.footer p,
+i,
+a {
+  color: #ccc;
+  cursor: pointer;
+  font-weight: 400;
+}
+.icons {
+  margin-right: 90px;
+}
+.icons a {
+  margin-right: 10px;
+}
+.text {
+  /* color: #ccc !important; */
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 90px;
+}
+a {
+  text-decoration: none !important;
+}
+.icons a {
+  color: #ccc;
+}
+footer p:hover,
+a:hover {
+  color: #747475 !important;
+}
+footer svg {
+  font-size: 20px;
+}
+footer a span {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: -1px;
+  margin-left: 5px;
+}

@@ -1,0 +1,15 @@
+.navbar-nav {
+  flex-direction: column !important;
+}
+.header .nav-link {
+  padding: 0;
+  font-size: 17px;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+.header .navbar-nav {
+  padding-left: 70px;
+}
+.header {
+  background: transparent !important;
+}

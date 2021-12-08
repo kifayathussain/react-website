@@ -1,0 +1,28 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh !important;
+  z-index: 100;
+  padding: 48px 0 0;
+  /* box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1); */
+}
+.nav {
+  flex-direction: column;
+  justify-content: center;
+}
+.sideBarIcon {
+  padding: 1.5rem !important;
+}
+.nav-link svg {
+  color: #ccc !important;
+  font-size: 30px;
+}
+.nav-link svg:hover {
+  color: #747475 !important;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #ccc !important;
+}
